@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    display: block;
+    justify-content: center;
+   font-family: poppins;
+ 
+  
+}
+.container{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(weather.avif);
+    background-size: cover;
+}
+.search{
+    margin-left: 35%;
+    margin-top: 50px;
+    height: 70px;
+    width: 35%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    gap: 10%;
+   /* background-color: rgb(20, 224, 231);
+    background-image: url(weather.avif); 
+   */
+
+}
+.picture{
+    height: 80px;
+    width: 80px;
+   /* background-image: url(clouds.png);*/
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.hey{
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+    height: 80px;
+   /* margin-top: 10px; */
+}
+.date{
+    margin-top: 10px;
+}
+.day{
+    margin-top: 10px;
+}
+.submit{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+
+    
+}
+.submit:hover{
+    background-color:burlywood;
+    
+}
+
+#cities{
+    margin-top: 5%;
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    border-color: none;
+    border: 0.5px solid black;
+    box-shadow: inset;
+}
+#city-name{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.date{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.day{
+    color: white;
+    font-size: 20px;
+}
+
+.weather{
+  /*  background-image: url(weather.avif); */
+    margin-top: 1%;
+    margin-left:35%;
+    height: 410px;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+.city{
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    
+    margin-top: 20px;
+   
+}
+.location{
+height: 30px;
+}
+.temp{
+    /*margin-top: 10px;*/
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.humidity{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+}
+.feels{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.max-min{
+    display: flex;
+    gap: 0px;
+}
+.max{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.min{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.pct{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.wind{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.gap{
+    height: 0.5px;
+    background-color: white;
+}
+.icon{
+    height: 0px;
+    width: 40px;
+}
+.pct-icon{
+    display: flex;
+}
+.liveTime{
+    height: 100px;
+    width: 100px;
+}
